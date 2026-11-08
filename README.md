@@ -1,10 +1,16 @@
 # Credit Approval Classification Using ML
 
 **BITS WILP | M. Tech in AIML | AIMLZG565**  
-**Course:** Machine Learning S1_26-AIMLZG565
-**Assignment:** Assignment_2
-**Student Name:** Samudrala Vinay
+**Course:** Machine Learning S1_26-AIMLZG565  
+**Assignment:** Assignment_2  
+**Student Name:** Samudrala Vinay  
 **BITS ID:** 2026AJ05834
+
+## Live Application
+
+**Streamlit Application:** [Open Credit Approval Classification Dashboard](https://aimlzg565assignment2-5cqla4avy82gq8hndzbihw.streamlit.app/)
+
+**GitHub Repository:** [AIMLZG565_Assignment2](https://github.com/Samudrala-Vinay/AIMLZG565_Assignment2)
 
 ## 1. Problem Statement
 
@@ -89,18 +95,23 @@ The following table presents the results obtained on the held-out test dataset.
 ## 7. Observations
 
 ### Logistic Regression
+
 Logistic Regression achieved an accuracy of 86.96% and the highest AUC of 0.9602 among the five classifiers. This indicates strong discrimination between the two classes.
 
 ### Decision Tree
+
 The Decision Tree achieved the highest accuracy of 89.13%. It also obtained the highest recall, F1 score and MCC. Its recall of 93.44% indicates that it correctly identified a large proportion of approved applications.
 
 ### K-Nearest Neighbours
+
 KNN achieved an accuracy of 86.23%. Its precision was 87.50%, but its recall was comparatively lower at 80.33%. This indicates that the model was more conservative when identifying approved applications.
 
 ### Naive Bayes
+
 Naive Bayes achieved the highest precision of 93.33%, but its recall was only 45.90%. Although its positive predictions were relatively reliable, it failed to identify a considerable proportion of actual approved applications.
 
 ### Support Vector Machine
+
 SVM achieved an accuracy of 87.68% and an AUC of 0.9557. Its F1 score of 0.8640 indicates a reasonably balanced classification performance.
 
 ## 8. Overall Model Selection
@@ -135,7 +146,7 @@ The application provides:
 
 The application loads saved models from the `models` directory. It does not retrain the models during evaluation.
 
-**Live application:** To be added after Streamlit Community Cloud deployment.
+**Live application:** [https://aimlzg565assignment2-5cqla4avy82gq8hndzbihw.streamlit.app/](https://aimlzg565assignment2-5cqla4avy82gq8hndzbihw.streamlit.app/)
 
 ## 10. Repository Structure
 
